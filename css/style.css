@@ -1,0 +1,65 @@
+﻿@import "tailwindcss/preflight.css";
+@import "tailwindcss/theme.css";
+@import "tailwindcss/utilities.css";
+
+@theme {
+  --spacing-resp-8: 8vw;
+  --spacing-resp-24: 24vw;
+}
+
+/* Logo styling */
+.logo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.2s ease-in-out;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+/* Header logo container */
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+/* Responsive logo sizing */
+@media (max-width: 768px) {
+  .logo {
+    height: 40px;
+  }
+}
+
+@media (min-width: 769px) {
+  .logo {
+    height: 48px;
+  }
+}
+
+header {
+  max-width: 1024px;
+  background-color: lightyellow;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  padding: 1em;
+}
+
+header > h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+nav > a {
+  margin-right: 1em;
+  font-size: 1.2em;
+  color: rgb(2, 35, 2);
+}
+
+nav > a:hover {
+  color: rgb(4, 181, 4);
+}
+
