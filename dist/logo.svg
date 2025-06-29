@@ -1,0 +1,15 @@
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="30" cy="30" r="25" fill="#1f4e79"/>
+  
+  <!-- Mountain -->
+  <path d="M15 40 L30 20 L45 40 Z" fill="#ffffff"/>
+  
+  <!-- Tree -->
+  <path d="M25 35 L30 25 L35 35 Z" fill="#4ade80"/>
+  <rect x="28" y="35" width="4" height="8" fill="#8b5a3c"/>
+  
+  <!-- Text -->
+  <text x="70" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1f4e79">NATIONAL PARKS</text>
+  <text x="70" y="40" font-family="Arial, sans-serif" font-size="12" fill="#4ade80">FOUNDATION</text>
+</svg> 
