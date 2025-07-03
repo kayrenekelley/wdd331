@@ -1,20 +1,13 @@
 {
-  "name": "tailwind-demo",
+  "name": "week-10-tailwind",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tailwind CSS project for WDD331R",
   "main": "index.js",
   "scripts": {
-    "start": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
-  "devDependencies": {
-    "@tailwindcss/vite": "^4.1.11",
-    "tailwindcss": "^4.1.11",
-    "vite": "^7.0.0"
-  }
+  "devDependencies": {},
+  "dependencies": {}
 }
